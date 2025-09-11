@@ -1,4 +1,4 @@
-import validateTodoDescription from "./validete-todo-description"
+import {validateTodoDescription} from "./validete-todo-description"
 
 describe('validateTodoDescription (unit)', () => {
   test('should return errors when the description is less than 4 characters', () => {

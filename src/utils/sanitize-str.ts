@@ -1,4 +1,4 @@
-export default function sanitizeStr(s: string): string {
+export function sanitizeStr(s: string): string {
   const clean = !s || typeof s !== 'string' ? '' : s.trim().normalize()
   return clean
 }
