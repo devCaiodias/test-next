@@ -1,4 +1,4 @@
-import sanitizeStr from "./sanitize-str"
+import {sanitizeStr} from "./sanitize-str"
 
 describe('sanitizeStr (unit)', () => {
   it('return an empty string when given a false value', () => {

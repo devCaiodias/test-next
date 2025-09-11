@@ -1,4 +1,4 @@
-import makeNewTodo from '@/core/todo/factories/make-new-todo'
+import {makeNewTodo} from '@/core/todo/factories/make-new-todo'
 
 describe('makeNewTodo (unit)', () => {
   it('shoud return a new valid todo', () => {

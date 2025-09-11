@@ -3,7 +3,7 @@ type ValidateTodoDescription = {
   errors: string[]
 }
 
-export default function validateTodoDescription(description: string): ValidateTodoDescription {
+export function validateTodoDescription(description: string): ValidateTodoDescription {
   const errors = []
 
   if (description.length <= 3) {
